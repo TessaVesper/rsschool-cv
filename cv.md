@@ -1,6 +1,6 @@
 # Aleksandra Matcuka
 
-## Contact information
+### Contact information
 
 ---
 
@@ -8,7 +8,7 @@
 - **LinkedIn**: [Aleksandra Matcuka](https://de.linkedin.com/in/aleksandra-matcuka-50399154)
 - **Discord**: @AlexandraM
 
-## Personal Profile
+### Personal Profile
 
 ---
 
@@ -21,10 +21,9 @@ Graduate from St. Petersburg Electrotechnical University with expertise in Quali
 - Responsive Web Development with HTML5 and CSS Grid and Flexbox
 - Basic JavaScript
 - Python - building simple GUIs and Desktop applications
-
-* VS Code
-* GitHub
-* Professional user of SAP GEP, RBP and Hana
+- VS Code
+- GitHub
+- Professional user of SAP GEP, RBP and Hana
 
 ### Code example
 
@@ -50,14 +49,13 @@ _Extensive but not relevant to Web Development_
 
 - St. Petersburg Electrotechnical University
   - Quality Engineering
-
-* Linkoping University (Sweden)
+- Linkoping University (Sweden)
   - Industrial Management
-* Coursera
+- Coursera
   - Meta Front End Developer
-* LinkedIn Learning
+- LinkedIn Learning
   - Python Essentials
-* Udemy
+- Udemy
   - Jonas Schmedtmann and Colt Steele courses on Web Development
 
 ### Language Skills
