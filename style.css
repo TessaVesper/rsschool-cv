@@ -7,10 +7,65 @@
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
-  border-bottom: 8px solid #343a40;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
+  border-bottom: 28px solid #fab005;
+}
+
+header,
+section {
+  margin-bottom: 48px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #fab005;
+  border-top: 48px solid #fab005;
+  border-top-right-radius: 20px;
+  padding: 24px;
+}
+
+.photo {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  border: 12px solid #fab005;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin-top: 16px;
+}
+
+.header-text-box p {
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+.header-text-box {
+  align-self: flex-start;
+}
+
+.contacts {
+  align-items: stretch;
+  margin-right: 0;
+}
+.contacts p {
+  padding: 8px;
 }
