@@ -59,3 +59,12 @@ _Extensive but not relevant to Web Development_
   - Python Essentials
 * Udemy
   - Jonas Schmedtmann and Colt Steele courses on Web Development
+
+### Language Skills
+
+---
+
+- English - Proficient
+- German - Upper-Intermediate
+- Spanish - Beginner
+- Russian - Native
