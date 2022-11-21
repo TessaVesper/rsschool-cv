@@ -34,6 +34,8 @@ function getParticipants(handshakes){
 };
 ```
 
+**Project** - [Brain Games](https://github.com/TessaVesper/fullstack-javascript-project-44)
+
 ### Work Experience
 
 Extensive work experience in large gas turbine and wind turbine business.
