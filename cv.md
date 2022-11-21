@@ -33,8 +33,8 @@ function getParticipants(handshakes){
       };
 };
 ```
-
-**Project** - [Brain Games](https://github.com/TessaVesper/fullstack-javascript-project-44)
+**Project:**
+[Brain Games](https://github.com/TessaVesper/fullstack-javascript-project-44)
 
 ### Work Experience
 
