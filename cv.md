@@ -1,21 +1,17 @@
 ## Aleksandra Marder
-___
 
 ![CV photo](/photo.jpg)
 
 ### Contact information
-___
 
 Discord: Aleksandra(@TessaVesper)\
 [LinkedIn](https://de.linkedin.com/in/aleksandra-matcuka-50399154/en)
 
 ### Currently
-___
 
 Aspiring Junior Web Developer, looking forward to an exciting new challenge after more than 10 years of quality and cost engineering experience.
 
 ### Skills
-___
 
 * HTML5, CSS(Sass)
 * JavaScript
@@ -23,7 +19,6 @@ ___
 * VS Code
 
 ### Code 
-___
 
 [Handshake problem - Codewars](https://www.codewars.com/trainer/setup)
 
@@ -40,12 +35,10 @@ function getParticipants(handshakes){
 ```
 
 ### Work Experience
-___
 
 Extensive work experience in large gas turbine and wind turbine business.
 
 ### Education
-___
 
 * St. Petersburg State Electrotechnical University 'LETI'
 
@@ -54,7 +47,6 @@ ___
 * Udemy courses on web development (Colt Steele and Jonas Schmedmann)
 
 ### Languages
-___
 
 * English - Advanced
 * German - Intermediate
