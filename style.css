@@ -95,4 +95,72 @@ h1 {
 main {
     display: flex;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    background-color: #662e9b;
+    width: 45rem;
+    height: 45rem;
+    bottom: -20rem;
+    right: -25rem;
+    border-radius: 50%;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-img {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-img__github {
+    background-image: url(github.png);
+}
+
+.contact-img__discord {
+    background-image: url(discord.png);
+}
+
+.contact-img__location {
+    background-image: url(location.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, 
+a:visited {
+    color: #383838;
+}
+
+a:hover,
+a:visited {
+    text-shadow: #383838 1px 0 10px;
 }
