@@ -1,10 +1,3 @@
-/* Colors:
-Main orange: FF6701
-Light orange: FEA82F
-Pastel: FFC288
-Plain: FCECDD
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -18,30 +11,88 @@ html {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
+    font-size: 1.6rem;
     line-height: 1.7;
     color: #383838;
-    padding: 3rem;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
-    max-width: 90rem;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.header-top {
-    background-color:#ff6701;
-    background-size: cover;
-    top:-288px;
-	right:-98px;
+header::before {
+    content: '';
+    position: absolute;
+    background-color: #662e9b;
+    width: 50rem;
+    height: 50rem;
+    left: -10rem;
+    top: -20rem;
+    border-radius: 50%;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    background-color: #ea3546;
+    width: 15rem;
+    height: 15rem;
+    left: 32rem;
+    top: 20rem;
+    border-radius: 50%;
+}
+
+.section-aside {
+    width: 40%;
+    padding: 3rem 5rem;
+    background-color: #f8f9fa;
+}
+
+.section-main {
+    width: 60%;
+    padding: 3rem 5rem;
+}
+
+.header-photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
 }
 
 img {
     border-radius: 50%;
-    border: 1.5rem solid #fcecdd;
-    width: 85%;
+    border: 2rem solid #f8f9fa;
+    z-index: 2;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.header-name__position {
+    font-size: 3rem;
+    color: #ea3546;
+}
+
+main {
+    display: flex;
+    width: 100%;
 }
