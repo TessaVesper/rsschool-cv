@@ -1,0 +1,47 @@
+/* Colors:
+Main orange: FF6701
+Light orange: FEA82F
+Pastel: FFC288
+Plain: FCECDD
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #383838;
+    padding: 3rem;
+}
+
+header {
+    display: flex;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.header-top {
+    background-color:#ff6701;
+    background-size: cover;
+    top:-288px;
+	right:-98px;
+}
+
+img {
+    border-radius: 50%;
+    border: 1.5rem solid #fcecdd;
+    width: 85%;
+}

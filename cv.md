@@ -46,7 +46,7 @@ Extensive work experience in large gas turbine and wind turbine business.
 
 **Courses**:
 * Hexlet - Fullstack Developer (ongoing)
-* Udemy courses on web development (Colt Steele and Jonas Schmedmann)
+* Udemy courses on web development (Colt Steele and Jonas Schmedtmann)
 
 ### Languages
 
