@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV_Aleksandra Marder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="section-aside header-photo">
+            <img src="photo_cv.jpg" alt="Photo of Aleksandra">
+        </div>
+        <div class="section-main header-name">
+            <h1 class="header-name__full">Aleksandra Marder</h1>
+            <p class="header-name__position">Web Developer</p>
+        </div>
+    </header>
+    <main>
+        <div class="section-aside section">
+        <section class="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-container">
+                <div class="contact-img contact-img__github"></div>
+                <a href="https://github.com/TessaVesper">GitHub</a>
+                </div>
+                <div class="contact-container">
+                <div class="contact-img contact-img__discord"></div>
+                <a href="https://discord.com/">Discord</a>
+                </div>
+                <div class="contact-container">
+                <div class="contact-img contact-img__location"></div>
+                <a href="https://www.google.com/maps/place/Elbphilharmonie+Hamburg/@53.553993,9.9808751,14z/data=!4m5!3m4!1s0x47b18f066770c44f:0xb2e4ab2a68984286!8m2!3d53.5413297!4d9.9841308">Hamburg, Germany</a>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="list skills-list">
+                <li>HTML5, CSS(Sass)</li>
+                <li>JavaScript</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>       
+            </ul>
+        </section>
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="list courses-list">
+                <li>St. Petersburg State Electrotechnical University 'LETI'</li>
+            </ul> 
+        </section>
+        </div>
+        <div class="section-main section">
+        <section class="currently">
+            <h2 class="section-title">Currently</h2>
+            <p class="currently-text">Aspiring Junior Web Developer, looking forward to an exciting new challenge after more than 10 years of quality and cost engineering experience.</p>
+        </section>   
+        <section class="code">
+            <h2 class="section-title">Code</h2>
+            <a href="https://github.com/TessaVesper/fullstack-javascript-project-44">Project "Brain Games"</a><br>
+            <a href="https://www.codewars.com/trainer/setup">Example of code from Codewars:</a>
+            <pre>
+                const func = (num) => {
+                    function getParticipants(handshakes){
+                      if (handshakes === 0) {
+                        return 0;
+                        } else {
+                          totalFarmers = Math.ceil((1 + 
+                          Math.sqrt(8 * handshakes + 1)) / 2);
+                        return totalFarmers ;
+                          };
+                    };
+            </pre>
+        </section>
+        <section class="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="experience-text">Extensive work experience in large gas turbine and wind turbine business.</p>
+        </section>   
+        <section class="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="list courses-list">
+                <li>Hexlet - Fullstack Developer (ongoing)</li>
+                <li>Udemy courses on web development (Colt Steele and Jonas Schmedtmann)</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="list languages-list">
+                <li>English - Advanced</li>
+                <li>German - Intermediate</li>
+                <li>Russian - Native</li>
+                <li>Spanish - Beginner</li>
+            </ul>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <nav class="footer-container">
+            <div class="contact-container">
+                <div class="contact-img footer-contact-img__github"></div>
+                <a class="footer-link" href="https://github.com/TessaVesper">GitHub/TessaVesper</a>
+                </div>
+            <p class="footer-year">2022</p>
+            <div class="footer-rsschool">
+                <div class="contact-container">
+                    <div class="footer-contact-img__rsschool"></div>
+                <a class="footer-link" href="https://rs.school/js/">JavaScript/Front-end course</a>
+            </div>
+            </div>
+        </nav>
+    </footer>
+    </div>
+</body>
+</html>
